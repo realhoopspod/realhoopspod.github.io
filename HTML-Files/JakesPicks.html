@@ -1,1 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Jakes Picks</title>
+<link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 
+<meta charset="UTF-8">
+<style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        * {
+  box-sizing: border-box;
+}
+
+        .title-container {
+            margin: 0 auto;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            background: linear-gradient(to right, green 50%, red 50%);
+            padding: 20px;
+            width: 100%;
+        }
+
+        .icon2 {
+            width: 100px; /* Adjust size */
+            height: 100px; /* Adjust size */
+            filter: sepia(100%) hue-rotate(90deg) saturate(400%) brightness(1.5);
+        }
+
+        .green-background,
+.red-background {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+}
+
+.green-background {
+    background-color: green;
+    left: 0;
+}
+
+.red-background {
+    background-color: red;
+    right: 0;
+}
+
+.red-text {
+    transform: translateX(-15px);
+}
+
+        h5 {
+            padding: 20px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            transform: translateX(-50px);
+            letter-spacing: 3px;
+            margin: 0 auto;
+            text-align: center;
+            color: white;
+            font-family: 'Bebas Neue', sans-serif;
+            font-weight: normal;
+            font-size: 100px;
+            z-index: 1;
+            -webkit-text-stroke: 3px black;
+        }
+    </style>
+</head>
+<body>
+
+<div class="title-container">
+    <img src="greencheck.png" class="icon2">
+    <h5 class="title">
+    <span class="green-text">Jakes&nbsp;&nbsp;</span> 
+    <span class="red-text">Picks</span>
+  </h5>
+</div>
+</body>
+</html>
