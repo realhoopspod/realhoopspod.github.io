@@ -2,7 +2,7 @@
 
 h1 {
     padding: 20px;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-bottom: 30px;
     text-align: center;
     background: #00214D;
@@ -10,6 +10,13 @@ h1 {
     font-family: 'Bebas Neue', sans-serif;
     font-weight: normal;
     font-size: 80px;
+}
+
+.spotify {
+  display: flex;
+  height: 75px;
+  justify-content: center; /* Horizontally center */
+  align-items: center;     /* Vertically center (optional) */
 }
 
 .navbar {
