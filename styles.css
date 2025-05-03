@@ -96,9 +96,9 @@ height: 300px;
   max-width: 500px;
   flex: 30%; /* Set the width of the sidebar */
   background-color: #f1f1f1; /* Grey background color */
-  padding: 20px; /* Some padding */
-  border-radius: 10px;
-  font-size: 20px;
+  padding: 22px; /* Some padding */
+  border-radius: 20px;
+  font-size: 22px;
 }
 
 h3{
