@@ -259,6 +259,6 @@ h2{
   }
 
   .image-block p, .image-block2 p {
-    font-size: 30px; /* Reduce font size on smaller screens */
+    font-size: 50px; /* Reduce font size on smaller screens */
   }
 }
