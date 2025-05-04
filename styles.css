@@ -262,5 +262,6 @@ h2{
     font-size: 50px; /* Reduce font size on smaller screens */
       font-stretch: expanded;
     letter-spacing: 5px;
+      line-height: 1.5;
   }
 }
