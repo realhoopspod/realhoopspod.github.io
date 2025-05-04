@@ -245,3 +245,20 @@ h2{
   background-image: linear-gradient(90deg, #1d428a, #c8102e); /* Gradient colors */
   background-clip: border-box; /* Apply gradient to the border */
 }
+
+@media screen and (max-width: 768px) {
+  .brackets {
+    flex-direction: column; /* Stack the blocks vertically on mobile */
+    align-items: center; /* Center-align the blocks */
+    gap: 20px; /* Add gap between blocks */
+  }
+
+  .image-block, .image-block2 {
+    width: 90%; /* Adjust width for smaller screens */
+    max-width: none; /* Remove max-width on smaller screens */
+  }
+
+  .image-block p, .image-block2 p {
+    font-size: 30px; /* Reduce font size on smaller screens */
+  }
+}
